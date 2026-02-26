@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://thebestdeals.site/camping/?fbclid=fbclid">
+    <title>Redirecionando...</title>
+    <script>
+        // Extract URL parameters to maintain tracking if available
+        const urlParams = new URLSearchParams(window.location.search);
+        let targetUrl = "https://thebestdeals.site/camping/";
+
+        // If there are existing parameters, we append them
+        if (urlParams.toString()) {
+            targetUrl += "?" + urlParams.toString();
+        } else {
+            targetUrl += "?fbclid=fbclid";
+        }
+
+        window.location.href = targetUrl;
+    </script>
+</head>
+
+<body>
+    <p>Se você não for redirecionado automaticamente, <a href="https://thebestdeals.site/camping/?fbclid=fbclid">clique
+            aqui</a>.</p>
+</body>
+
+</html>
